@@ -14,5 +14,5 @@
 
 ;; TESTS:
 (f 32) ; "32 Fahrenheit shoule be 0 celsius"
-(f 100) ; "100 Fahrenheit 
+(f 100) ; "100 Fahrenheit should be 37.77777777777778
 (f 212) ; "212 Fahrenheit should be 100 celsius"
