@@ -14,5 +14,10 @@
 
 ;; TESTS:
 (f 32) ; 32 Fahrenheit shoule be 0 celsius
+<<<<<<< HEAD
 (f 100) ; 100 Fahrenheit 
 (f 212) ; 212 Fahrenheit should ne 100 celsius
+=======
+(f 100) ; 100 Fahrenheit should be 37.77777777777778 celsius
+(f 212) ; 212 Fahrenheit should be 100 celsius
+>>>>>>> 4d698d0ff7b974e8b21012220c75917cf4fe35ed
