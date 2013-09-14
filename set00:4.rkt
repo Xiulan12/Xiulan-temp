@@ -15,10 +15,10 @@
 
 ; TESTS
 
-(= (tip 10 0.15) 1.5) ; the tip for the bill of $20 and 15% percentage 
+(tip 10 0.15); the tip for the bill of $20 and 15% percentage 
 ; of tip should be $1.5
-(= (tip 20 0.17) 3.4) ; the tip for the bill of $20 and 17% percentage 
+(tip 20 0.17); the tip for the bill of $20 and 17% percentage 
 ; of tip should be $3.4
-(= (tip 100 0.2) 20) ; the tip for the bill of %100 and 20% percentage 
+(tip 100 0.2); the tip for the bill of %100 and 20% percentage 
 ; of the tip should be $20
   
