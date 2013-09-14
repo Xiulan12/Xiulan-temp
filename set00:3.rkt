@@ -13,6 +13,6 @@
   (+ (* 5/9 c) -160/9))
 
 ;; TESTS:
-(f 32) ; "32 Fahrenheit shoule be 0 celsius"
-(f 100) ; "100 Fahrenheit should be 37.77777777777778
-(f 212) ; "212 Fahrenheit should be 100 celsius"
+(f 32) ; 32 Fahrenheit shoule be 0 celsius
+(f 100) ; 100 Fahrenheit should be 37.77777777777778 celsius
+(f 212) ; 212 Fahrenheit should be 100 celsius
