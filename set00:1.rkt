@@ -11,7 +11,6 @@
 ; RETURN: the seconds in a leap year
 
 (define (sec1 d)
-<<<<<<< HEAD
  (* d (* 24 (* 60 60))))
 
 (sec1 366)

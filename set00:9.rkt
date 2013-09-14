@@ -5,10 +5,17 @@
 ; GIVEN: number, will be divided by 2nd
 ; RETURN: boolean data, true is the number is divisible by 2, other wise false
 ; Examples:
-; (even? 12 2) => true
-; (even? 33 2) => false
+; (remainder 12 2) = 0, even? => true
+; (remainder 33 2) = 1, even? => false
 
-(define evens
+(define (even1 n)
   (cond 
-    [> 0 (remainder (evens 2))]
+    [(= 0 (remainder n 2)) true]
+    [(= 1 (remainder n 2)) false]
+    [(= -1 (remainder n 2)) false]))
+
+;TEST:
+ (even1 12) ; 12 is dividable by 2, it is true being even
+ (even1 33) ; 33 is not dividable by 2, it is false being even
+ (even1 -25) ; -25 is not devidableby 2, it is false being even
     
