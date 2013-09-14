@@ -8,14 +8,7 @@
 ; (even? 12 2) => true
 ; (even? 33 2) => false
 
-(define (evens n)
+(define evens
   (cond 
-    [(= 0 (remainder n 2)) true]
-    [(= 1 (remainder n 2)) false]
-    [(= -1 (remainder n 2)) false]))
-
-; TESTS
-(evens 12) ; it is true that 12 is even
-(evens 33) ; it is fals that 33 is even
-(evens -25) ;it is false that -25 is even
+    [> 0 (remainder (evens 2))]
     
