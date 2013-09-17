@@ -13,7 +13,7 @@
   (+ (* 5/9 c) -160/9))
 
 ;; TESTS:
-(f 32) ; 32 Fahrenheit shoule be 0 celsius
-(f 100) ; 100 Fahrenheit should be 37.77777777777778 celsius
-(f 212) ; 212 Fahrenheit should be 100 celsius
-
+(check-expect (f 32) 0) ; 32 Fahrenheit shoule be 0 celsius
+(check-within (f 100) 37.77777777777778 0.0000000000001) 
+; 100 Fahrenheit should be 37.77777777777778 celsius
+(check-expect (f 212) 100) ; 212 Fahrenheit should be 100 celsius
