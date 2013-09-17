@@ -10,15 +10,5 @@
 ; GIVEN: days in leap year
 ; RETURN: the seconds in a leap year
 
-(define (sec1 d)
- (* d (* 24 (* 60 60))))
+(* 366 (* 24 (* 60 60)))
 
-(sec1 366)
-
-
-
-=======
-(* d (* 24 (* 60 60)))
-
-(sec1 366)
->>>>>>> 4d698d0ff7b974e8b21012220c75917cf4fe35ed
