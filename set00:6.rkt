@@ -13,5 +13,5 @@
   (/ (- (sqrt (- (* b b) (* 4 (* a c)))) b) (* 2 a)))
   
 ;TESTS:
-(q-root -2 -1 1); the answer should be -1
-(q-root 1 0 -1); the answer should be 1
+(check-expect (q-root -2 -1 1) -1); the answer should be -1
+(check-expect (q-root 1 0 -1) 1); the answer should be 1
