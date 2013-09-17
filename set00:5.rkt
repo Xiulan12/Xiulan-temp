@@ -13,6 +13,6 @@
   (* n n))
 
 ; TESTS:
-(= (sq 1) 1) ; square of 1 should be 1
-(= (sq 2) 4) ; square of 2 shoulbe be 4
-(= (sq 10) 100) ; square of 10 should be 100
+(check-expect (sq 1) 1) ; square of 1 should be 1
+(check-expect(sq 2) 4) ; square of 2 shoulbe be 4
+(check-expect (sq 10) 100) ; square of 10 should be 100
